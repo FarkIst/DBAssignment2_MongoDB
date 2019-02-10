@@ -24,6 +24,8 @@ In a command line while in the repo folder, type jupyter notebook and open Mongo
 
 ### Question 2 Which Twitter users link the most to other Twitter users? (Provide the top ten.)
 
+```
+
 {'_id': 'lost_dog', 'links to others': 549}
 {'_id': 'tweetpet', 'links to others': 310}
 {'_id': 'VioletsCRUK', 'links to others': 251}
@@ -34,13 +36,13 @@ In a command line while in the repo folder, type jupyter notebook and open Mongo
 {'_id': 'Karen230683', 'links to others': 216}
 {'_id': 'keza34', 'links to others': 211}
 {'_id': 'TraceyHewins', 'links to others': 202}
-
+```
 ### Question 3 Who is are the most mentioned Twitter users? (Provide the top five.)
 
 Not implemented :(
 
 ### Question 4 Who are the most active Twitter users (top ten)?
-
+```
 {'_id': 'lost_dog', 'posts': 549}
 {'_id': 'webwoke', 'posts': 345}
 {'_id': 'tweetpet', 'posts': 310}
@@ -51,9 +53,9 @@ Not implemented :(
 {'_id': 'what_bugs_u', 'posts': 246}
 {'_id': 'Karen230683', 'posts': 238}
 {'_id': 'DarkPiano', 'posts': 236}
-
+```
 ### Question 5 Who are the five most grumpy (most negative tweets) and the most happy (most positive tweets)?
-
+```
 {'negative': {'_id': 'lost_dog', 'count': 549},
               {'_id': 'tweetpet', 'count': 310},
               {'_id': 'webwoke', 'count': 264},
@@ -64,3 +66,4 @@ Not implemented :(
               {'_id': 'VioletsCRUK', 'count': 218},
               {'_id': 'tsarnick', 'count': 212},
               {'_id': 'keza34', 'count': 211}}
+```
